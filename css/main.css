@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#main__container {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background-image: url("../img/netflix_banner_med1.jpg");
+  background-repeat: no-repeat;
+  height: 120%;
+}
+.netflix_logo {
+  width: 10rem;
+  height: 5rem;
+}
+.header_left_content {
+  display: flex;
+  justify-content: space-between;
+  /* width: 12%; */
+  width: 10%;
+}
+#signIn__btn {
+  background-color: red;
+  color: #fff;
+  text-transform: capitalize;
+}
+.lang__select {
+  /* background-color: #fff; */
+  color: #000000;
+  width: fit-content;
+  padding-top: 0.6rem;
+  padding-bottom: 0.5rem;
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid #aaa;
+  color: #fff;
+  font-size: 0.875rem;
+}
+#header__second {
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  /* align-items: center; */
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 0;
+  padding-right: 0;
+}
+.center__header__div {
+  position: relative;
+  width: 100%;
+  padding: 5% 0;
+  max-width: 950px;
+  text-align: right;
+  z-index: 1;
+  color: #fff;
+}
+.center__header__div > div {
+  padding: 5%;
+  /* background-color: green; */
+}
+.story__card > h1 {
+  font-size: 4rem;
+}
+.story__card > h2 {
+  font-size: 1.5rem;
+}
+.story__card > h4 {
+  font-size: 1.2rem;
+}
